@@ -1,0 +1,61 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.summary {
+    padding: 20px 20px;
+    word-spacing: 2px;
+}
+
+.website {
+    display: flex;
+    flex-direction: row;
+}
+
+.screenshot {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.website p {
+    margin: 50px 50px;
+}
+
+.website p a {
+    text-decoration: none;
+    color: #ebe8e0;
+}
+
+
+
+.screenshot img {
+    max-width: 100%;
+}
+
+.collapsible {
+    background-color: #E76B74;
+    color: #ebe8e0;
+    font-size: 45px;
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    text-align: left;
+    outline: none;
+}
+
+.active,
+.collapsible:hover {
+    color: #676A65;
+}
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}

@@ -1,0 +1,58 @@
+.main-content {
+    padding-top: 100px;
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nrp {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    background-color: #E76B74;
+    padding: 20px 20px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.summary {
+    font-size: 20px;
+    padding: 100px 100px;
+    width: 50%;
+    display: flex;
+    line-height: 3;
+}
+
+.pdf {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.collapsible {
+    background-color: #E76B74;
+    color: #ebe8e0;
+    font-size: 45px;
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    text-align: left;
+    outline: none;
+}
+
+.active,
+.collapsible:hover {
+    color: #676A65;
+}
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
