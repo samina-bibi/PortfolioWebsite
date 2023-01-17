@@ -28,8 +28,12 @@ header {
 
 .website-nav ul li a {
     text-decoration: none;
-    color: #D7AF70;
+    color: #ebe8e0;
     padding-right: 30px;
+}
+
+.website-nav ul li a:hover {
+    color: #D7AF70;
 }
 
 .main-content {
