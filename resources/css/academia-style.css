@@ -10,7 +10,7 @@
     display: flex;
     flex-direction: row;
     max-width: 100%;
-    background-color: #E76B74;
+    background-color: #DF8D72;
     padding: 20px 20px;
     border-radius: 20px;
     margin-left: 20px;
@@ -20,8 +20,9 @@
     display: flex;
     flex-direction: row-reverse;
     max-width: 100%;
-    background-color: #E76B74;
+    background-color: #DF8D72;
     padding: 20px 20px;
+    margin-top: 20px;
     border-radius: 20px;
     margin-left: 20px;
 }
@@ -31,6 +32,7 @@
     padding: 100px 100px;
     width: 50%;
     display: flex;
+    flex-direction: column;
     line-height: 3;
 }
 
@@ -39,6 +41,26 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.code {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.code img {
+    width: 50%;
+    align-self: center;
+}
+
+.code .collapsible {
+    margin-top: 50px;
+}
+
+.code a {
+    text-align: left;
+    padding: 50px 50px;
 }
 
 .collapsible {
